@@ -1,6 +1,6 @@
 package io.github.ciesielskis.petclinic.model;
 
-public class PetType {
+public class PetType extends BaseEntity {
 
     private String name;
 
@@ -12,3 +12,8 @@ public class PetType {
         this.name = name;
     }
 }
+
+
+
+
+//<3
